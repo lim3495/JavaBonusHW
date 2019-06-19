@@ -24,14 +24,14 @@ public class BonusDemo {
 			}
 		}
 		
-		try {
-			if(args[0].equals("ls")==false)
-				throw new Exception();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			System.exit(0);
-		}
+//		try {
+//			if(args[0].equals("ls")==false)
+//				throw new Exception();
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//			System.exit(0);
+//		}
 	
 		if (inputPath.isEmpty()) {
 			System.out.println("No input path");
